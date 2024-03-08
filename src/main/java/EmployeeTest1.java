@@ -11,6 +11,8 @@
 public class EmployeeTest1 {
     public static void main(String[] args){
     //Create 3 employee objescts with the specified details
+    
+        System.out.println("Print your email: ");
         Employee employee1 = new Employee ("Adams Smith", "jb@gmail.com", Employee.getNextEmpNum());
         Employee employee2 = new Employee ("Anna Banana", "jvc@gmail.com", Employee.getNextEmpNum());
         Employee employee3 = new Employee("Tom Thumb", "tt@gmail.com", Employee.getNextEmpNum());

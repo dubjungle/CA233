@@ -9,13 +9,14 @@
  * @author pc
  */
 public class Employee {
-    public static void main(String[] args) {
+  
    
-    private static int nextu;
+private static int nextEmpNum =1;
 private String name;
 private String email;
 private int empNum;
-private static int nextEmpNum =1;
+
+
  
     // Constructor with default values
       public Employee () { 
