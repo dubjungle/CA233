@@ -9,8 +9,9 @@
  * @author pc
  */
 public class Employee {
-
-    private static int nextEmpum;
+    public static void main(String[] args) {
+   
+    private static int nextu;
 private String name;
 private String email;
 private int empNum;
@@ -51,13 +52,14 @@ private static int nextEmpNum =1;
           
           }
           
-          
+           
  public static int getNextEmpNum(){
-    return nextEmpum;
+    return nextEmpNum;
     
  }
+  
 }
-
+ 
 
           
       
