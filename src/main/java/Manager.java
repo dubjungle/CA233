@@ -37,6 +37,14 @@ public class Manager extends Employee {
     public void setPassword (String password){
     this.password = password;
     }
+
+    void getName(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void addNewStaff(Employee newEmployee) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
 
 
