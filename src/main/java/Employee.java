@@ -50,6 +50,8 @@ private static int nextEmpNum =1;
               System.out.println("Email lenght must be greater than 3");}
           
           }
+          
+          
  public static int getNextEmpNum(){
     return nextEmpum;
     
